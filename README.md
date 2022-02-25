@@ -1,10 +1,10 @@
 # Shopee-price-match
-1. Motivation and Research Question: \
+1. Motivation and Research Question: 
 
 The motivation of this project is to build a model using an advanced deep learning approach for Shopee product price matching. This predictive model should predict which items are the same products. It allows a company to offer products at competitive rates to the same product sold by another retailer and assure customers that their products are the cheapest. \
-To achieve this goal, the research questions that we need to think about are: There has already been a lot of deep learning to present image or text information well, but in our case, the input information is given as the image and text pair. Therefore, it is worthwhile to explore the good way to integrate the two parts of information. That is to concatenate them together and make one as effective guidance or supplement of the other. \
+To achieve this goal, the research questions that we need to think about are: There has already been a lot of deep learning to present image or text information well, but in our case, the input information is given as the image and text pair. Therefore, it is worthwhile to explore the good way to integrate the two parts of information. That is to concatenate them together and make one as effective guidance or supplement of the other. 
 
-2. Background and Related Work: \
+2. Background and Related Work: 
 
 The outperforming ones are conducting simple concatenation for text and image extracted features using pre-trained deep learning networks, processing the texts and images in multiple networks, and combining the results in an ensemble way or by majority vote.
 We are curious if there is a more intelligent way to combine the 2 parts of information. The new solution should have two following basic advantages: 1) fine-grained feature representations for both the image and the texts; 2) multi-modal feature fusion that is able to capture the complex interactions between multi-modal features. \
